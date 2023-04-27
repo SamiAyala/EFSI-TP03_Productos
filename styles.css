@@ -1,0 +1,19 @@
+.mainBody{
+    background-color:navy;
+}
+#cardProducto{
+    color: white;
+    background-color: rgb(0, 0, 170);
+}
+
+#mainNavbar{
+    background-color: blue !important;
+}
+
+.modal-content{
+    background-color: blue !important;   
+    color: white !important;
+}
+#img-carousel{
+    border: 1px solid white;
+}
