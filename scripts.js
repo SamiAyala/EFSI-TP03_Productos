@@ -36,7 +36,8 @@ axios.get('https://dummyjson.com/products/categories')
         // handle success
         const dropdown = document.getElementById("dropdownCategoria");
         response.data.forEach(categoria => {
-            const liCategoria = document.createElement("li");
+            const liCategoria = document.createElement("a");
+            liCategoria.href="#";
             liCategoria.classList.add("dropdown-item");
             liCategoria.onclick = () => mostrarCategoria(categoria)
             liCategoria.innerHTML = `${categoria}`
